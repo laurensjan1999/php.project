@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://visitnetworld.com/wp-content/uploads/2016/03/parallax-background.jpg);
+    font-family: "Arial" , "Verdane" , sans-serif ;
+    
+    
+}
+
+
+td{ border: 1px solid black;}
+
+
+
+.bronnenlijst { position: absolute; bottom: 5px;}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: (green);
+  }
+
+
+
+
+  .centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    text-align: center;
+
+  }
+
+  .corner {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+  }
+  

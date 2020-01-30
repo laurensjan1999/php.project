@@ -1,60 +1,69 @@
-<?php
+<!DOCTYPE html>
 
-/**
- * Laravel - A PHP Framework For Web Artisans
- *
- * @package  Laravel
- * @author   Taylor Otwell <taylor@laravel.com>
- */
 
-define('LARAVEL_START', microtime(true));
 
-/*
-|--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
-|
-| Composer provides a convenient, automatically generated class loader for
-| our application. We just need to utilize it! We'll simply require it
-| into the script here so that we don't have to worry about manual
-| loading any of our classes later on. It feels great to relax.
-|
-*/
+<head>
 
-require __DIR__.'/../vendor/autoload.php';
 
-/*
-|--------------------------------------------------------------------------
-| Turn On The Lights
-|--------------------------------------------------------------------------
-|
-| We need to illuminate PHP development, so let us turn on the lights.
-| This bootstraps the framework and gets it ready for use, then it
-| will load up this application so that we can run it and send
-| the responses back to the browser and delight our users.
-|
-*/
+    <title>
+        Index
+    </title>
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+    <link rel="stylesheet" href="style.css">
 
-/*
-|--------------------------------------------------------------------------
-| Run The Application
-|--------------------------------------------------------------------------
-|
-| Once we have the application, we can handle the incoming request
-| through the kernel, and send the associated response back to
-| the client's browser allowing them to enjoy the creative
-| and wonderful application we have prepared for them.
-|
-*/
 
-$kernel = $app->make(Illuminate\Contracts\Http\Kernel::class);
 
-$response = $kernel->handle(
-    $request = Illuminate\Http\Request::capture()
-);
 
-$response->send();
+</head>
 
-$kernel->terminate($request, $response);
+<body>
+    <ul>
+        <li style="background-color: green"><a href="index.php">Index</a></li>
+        <li><a href="dashboard.php">Dashboard</a></li>
+        <li><a href="Profile.php">Profiel</a></li>
+        <li><a href="motivatie.php">Motivatie</a></li>
+        <li><a href="hboIctEvent.php">Beroepsbeeld</a></li>
+        <li><a href="contact.php">Contact</a></li>
+
+
+    </ul>
+
+
+    <img class="centerimg" src="https://pbs.twimg.com/profile_images/1705719141/HZ_beeldmerk_400x400.jpg" width="250"
+        height="250">
+
+
+
+
+    <h2 class="center">Waarom de studie HBO-ICT bij mij past</h2>
+    <pre style="font-size: x-large">
+Ik heb gekozen voor de opleiding HBO-ICT omdat mijn interesse ligt in de ICT-sector. Ik ben altijd al gefascineerd geweest door computers. 
+En ik zou graag meer willen leren over de vele mogenlijkheden van de computer.
+Ik heb echter nog geen ervaring op dit gebied. Ook heb ik nog nooit eerder een website gemaakt of iets anders geprogrameerd. 
+Toch heeft dit mij niet weerhouden deze opleiding te kiezen.
+Verder denk ik dat ik het HBO aan kan, niet omdat m'n HAVO cijfers zo goed waren... maar omdat ik de studie interessant vind.
+
+
+
+
+
+
+
+
+ </pre>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
