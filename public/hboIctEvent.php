@@ -95,8 +95,8 @@ toch was dit ook een leuk bedrijf we zagen hoe een bedrijf letterlijk werd opgeb
 
       </pre>
 
-<img class="rechtsmidden" src="WhatsApp Image 2019-10-04 at 16.25.07.jpeg" width="400" height="300">
-<img class="rechtsonder" src="met loek.jpeg"  width="400" height="300"
+<img class="rechtsmidden" src=".\plaatjes\WhatsApp Image 2019-10-04 at 16.25.07.jpeg" width="400" height="300">
+<img class="rechtsonder" src=".\plaatjes\met loek.jpeg"  width="400" height="300"
 
 </body>
 </html>

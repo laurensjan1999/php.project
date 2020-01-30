@@ -117,7 +117,7 @@ class="rechtsmidden">
                 <td>Presentatie</td>
                 <td>33%</td>
                 <td>2.5</td>
-                <td></td>
+                <td>2.5</td>
             </tr>
             <tr>
                 <td></td>
@@ -145,14 +145,14 @@ class="rechtsmidden">
                 <td>Casustoets</td>
                 <td>50%</td>
                 <td>5</td>
-                <td></td>
+                <td>5</td>
             </tr>
             <tr>
                 <td>Object-oriented programming</td>
                 <td>Groepsproject</td>
                 <td>50%</td>
                 <td>5</td>
-                <td></td>
+                <td>5</td>
             </tr>
             <tr>
                 <td>Professional skills 2</td>
@@ -257,7 +257,7 @@ class="rechtsmidden">
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>15</td>
+                <td>27.5</td>
             </tr>
             <tr style="background-color: red">
                 <td>Te behalen punten</td>
